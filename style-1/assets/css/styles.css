@@ -1567,6 +1567,18 @@ section {
   padding-right: 20%;
 }
 
+.ag-about-offer .each-content-inner ul li {
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.ag-about-offer .each-content-inner ul li:hover {
+  -webkit-box-shadow: 0 27px 79px -7px rgba(140, 94, 11, 0.18), 2px 28px 54px 0 rgba(171, 171, 180, 0.18);
+          box-shadow: 0 27px 79px -7px rgba(140, 94, 11, 0.18), 2px 28px 54px 0 rgba(171, 171, 180, 0.18);
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
 .ev-about-features-1.ev-about-features-1-2 .ev-content-title {
   padding-right: 0;
 }
@@ -3829,6 +3841,10 @@ section {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f3f2f2', GradientType=0 );
 }
 
+.ag-action {
+  padding: 60px 0;
+}
+
 .ag-action .act-inner {
   background-color: #3A3CBC;
   width: 90%;
@@ -3879,5 +3895,75 @@ section {
   line-height: 30px;
   color: #182D38;
   margin-bottom: 10px;
+}
+
+.featured-section .each-img {
+  padding: 30px;
+}
+
+.featured-section .each-content h2 {
+  font-size: 60px;
+  line-height: 72px;
+  color: #031D3C;
+  font-weight: bold;
+  margin: 20px 0;
+  margin-top: 10px;
+}
+
+.featured-section .each-content h5 {
+  font-size: 20px;
+  line-height: 30px;
+  color: #031D3C;
+  margin-bottom: 20px;
+}
+
+.featured-section .each-content h5 .fa {
+  margin-right: 6px;
+}
+
+.featured-section .each-content p {
+  padding-right: 10%;
+  margin-bottom: 30px;
+}
+
+.ag-more-works ul li {
+  display: inline-block;
+  background-color: #3A3CBC;
+  padding: 15px 24px;
+  border-radius: 4px;
+  margin: 0 6px;
+  margin-top: 30px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.ag-more-works ul li.dl-color {
+  background-color: #EA4C89;
+}
+
+.ag-more-works ul li.bc-color {
+  background-color: #0067FF;
+}
+
+.ag-more-works ul li.pn-color {
+  background-color: #E60122;
+}
+
+.ag-more-works ul li:hover {
+  -webkit-box-shadow: 0 27px 79px -7px rgba(140, 94, 11, 0.18), 2px 28px 54px 0 rgba(171, 171, 180, 0.18);
+          box-shadow: 0 27px 79px -7px rgba(140, 94, 11, 0.18), 2px 28px 54px 0 rgba(171, 171, 180, 0.18);
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.ag-more-works ul li a {
+  color: #ffffff;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: bold;
+}
+
+.ag-more-works ul li a .fa {
+  margin-right: 6px;
 }
 /*# sourceMappingURL=styles.css.map */
