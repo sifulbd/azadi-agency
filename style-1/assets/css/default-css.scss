@@ -829,8 +829,15 @@ button {
 .bg-4{
     color: $bg-4;
 }
+.white-bg{
+    background-color: $white;
+}
 p {
     color: $paragraph-color;
+}
+.contact-shadow {
+    -webkit-box-shadow: 2px 28px 54px 0px rgba(85, 85, 93, 0.03);
+    box-shadow: 2px 28px 54px 0px rgba(85, 85, 93, 0.03);
 }
 
 .body-2 {
