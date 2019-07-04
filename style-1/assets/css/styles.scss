@@ -2973,3 +2973,97 @@ section {
         }
     }
 }
+
+.ag-blog-page-title {
+    h5 {
+        font-size: 14px;
+        line-height: 23px;
+        color: rgba(#005F55, 0.7);
+        margin-bottom: 20px;
+    }
+    h2 {
+        font-size: 80px;
+        line-height: 80px;
+        color: $title-color;
+        margin-bottom: 30px;
+    }
+}
+
+.ag-slider-blog-post {
+    .ag-blog-post  {
+        position: relative;
+        border-radius: 4px;
+    }
+    .owl-controls {
+        position: absolute;
+        right: 100px;
+        bottom: 100px;
+        .owl-dot {
+            height: 10px;
+            width: 10px;
+            display: inline-block;
+            margin: 0 5px;
+            border-radius: 50%;
+            background-color: rgba(#fff, 0.7);
+            &.active {
+                background-color: rgba(#fff, 1);
+            }
+        }
+    }
+    .blog-black-overlay {
+        position: absolute;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        border-radius: 4px;
+        background-color: rgba(#000, 0.7);
+    }
+    .ag-blog-inner {
+        z-index: 99;
+        position: relative;
+        padding: 100px;
+        h3 {
+            font-size: 50px;
+            line-height: 60px;
+            color: $white;
+            margin-bottom: 30px;
+        }
+        .author {
+            display: inline-block;
+            margin-bottom: 100px;
+            img {
+                height: 30px;
+                width: 30px;
+                border-radius: 50%;
+                display: inline-block;
+                margin: 0 4px;
+            }
+            h4 {
+                font-size: 16px;
+                line-height: 30px;
+                display: inline-block;
+                margin-bottom: 0;
+                margin-left: 4px;
+                font-weight: normal;
+                font-family: $font-2;
+                opacity: 0.7;
+                color: #fff;
+            }
+        }
+        .btn {
+            color: $title-color;
+            background-color: $white;
+
+            &:hover {
+                color: $white;
+                background-color: $theme-color;
+            }
+        }
+    }
+
+    .blog-pagination {
+        margin-top: 60px;
+    }
+
+}

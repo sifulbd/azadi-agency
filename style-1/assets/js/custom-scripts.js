@@ -502,6 +502,55 @@
     }); 
 
     // blog post
+   $('#ag-blog-slide').owlCarousel({
+        loop: true,
+        responsiveClass: true,
+        nav: false,
+        autoplay: false,
+        smartSpeed: 450,
+        margin: 10,
+        stopOnHover : true,
+        animateIn: 'slideInRight',
+        animateOut: 'slideOutLeft',
+        autoplayHoverPause: true,
+        responsive: {
+        0: {
+            items: 1,
+        },
+        768: {
+            items: 1,
+        },
+        1170: {
+            items: 1,
+        }
+        }
+    }); 
+    // blog post
+   $('#ag-blog-slide-2').owlCarousel({
+        loop: true,
+        responsiveClass: true,
+        nav: false,
+        autoplay: false,
+        smartSpeed: 450,
+        margin: 10,
+        stopOnHover : true,
+        animateIn: 'slideInRight',
+        animateOut: 'slideOutLeft',
+        autoplayHoverPause: true,
+        responsive: {
+        0: {
+            items: 1,
+        },
+        768: {
+            items: 1,
+        },
+        1170: {
+            items: 1,
+        }
+        }
+    }); 
+
+    // blog post
    $('#ag-testimonial-2').owlCarousel({
         loop: true,
         responsiveClass: true,
