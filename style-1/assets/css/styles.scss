@@ -3067,3 +3067,42 @@ section {
     }
 
 }
+
+.fig-caption {
+    display: none;
+}
+.grid-item {
+    // padding: 0;
+    // display: inline-block;
+    margin-bottom: 30px;
+}
+figure {
+    margin: 0;
+}
+.portfolio-nav  {
+    margin-bottom: 30px;
+    ul {
+        li {
+            display: inline-block;
+            font-size: 20px;
+            line-height: 30px;
+            color: $title-color;
+            margin-right: 10px;
+            padding: 2px 13px;
+            border-radius: 30px;
+            &.current {
+                background-color: $theme-color;
+                color: $white;
+            }
+        }
+    }
+}
+.ag-portfolio-2 {
+    .grid-item {
+        padding: 0;
+        margin: 0;
+        figure {
+            margin: 0;
+        }
+    }
+}
