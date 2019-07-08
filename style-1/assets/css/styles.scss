@@ -2572,7 +2572,7 @@ section {
     position: absolute;
     left: -523px;
     top: 80px;
-    color: #ECF0F4;
+    color: rgba(#ECF0F4, 0.5);
     transform: rotate(-20deg);
 }
 
@@ -3068,17 +3068,55 @@ section {
 
 }
 
-.fig-caption {
-    display: none;
+.ag-portfolio {
+    figure {
+        margin: 0;
+        position: relative;
+        &:hover {
+            .fig-caption {
+                opacity: 1;
+                transition: all 0.3s;
+
+                .fig-inner-content { 
+                    top: 30% ;
+                    transition: all 0.5s;
+                }   
+            }
+        }
+        .fig-caption {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            opacity: 0;
+            transition: all 0.3s;
+            .figcap-inner-overlay {
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                background-color: rgba(#000, 0.7);
+            }
+            .fig-inner-content {
+                text-align: center;
+                top: 0;
+                color: #fff;
+                transition: all 0.3s;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+            }
+        }
+    }
 }
+
 .grid-item {
-    // padding: 0;
-    // display: inline-block;
     margin-bottom: 30px;
 }
-figure {
-    margin: 0;
-}
+
 .portfolio-nav  {
     margin-bottom: 30px;
     ul {

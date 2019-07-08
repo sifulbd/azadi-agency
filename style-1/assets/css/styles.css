@@ -3586,7 +3586,7 @@ section {
   position: absolute;
   left: -523px;
   top: 80px;
-  color: #ECF0F4;
+  color: rgba(236, 240, 244, 0.5);
   -webkit-transform: rotate(-20deg);
           transform: rotate(-20deg);
 }
@@ -4118,16 +4118,57 @@ section {
   margin-top: 60px;
 }
 
-.fig-caption {
-  display: none;
+.ag-portfolio figure {
+  margin: 0;
+  position: relative;
+}
+
+.ag-portfolio figure:hover .fig-caption {
+  opacity: 1;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.ag-portfolio figure:hover .fig-caption .fig-inner-content {
+  top: 30%;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.ag-portfolio figure .fig-caption {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.ag-portfolio figure .fig-caption .figcap-inner-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.ag-portfolio figure .fig-caption .fig-inner-content {
+  text-align: center;
+  top: 0;
+  color: #fff;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
 .grid-item {
   margin-bottom: 30px;
-}
-
-figure {
-  margin: 0;
 }
 
 .portfolio-nav {
