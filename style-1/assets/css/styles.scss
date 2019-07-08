@@ -3144,3 +3144,30 @@ section {
         }
     }
 }
+
+.ag-case-study {
+    .ag-case-item {
+        margin-bottom: 60px;
+        h2 {
+            font-size: 60px;
+            line-height: 60px;
+            color: $title-color;
+            margin-bottom: 30px;
+        }
+        h5 {
+            font-size: 20px;
+            line-height: 30px;
+            color: $title-color;
+            font-weight: bold;
+            margin-bottom: 30px;
+            .fa {
+                margin-right: 15px;
+                color: #37C2CC;
+            }
+        }
+        img {
+            margin: 20px 0;
+            margin-top: 0;
+        }
+    }
+}
